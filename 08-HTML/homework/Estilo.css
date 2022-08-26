@@ -1,0 +1,61 @@
+body{
+    background-color:lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo div{
+    background-color: gray;
+    height: 150px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.titulo img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}
+
+#Lista{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.Datos {
+    background-color: lightskyblue;
+    width: 600px;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+
+.Expectativas{
+    background-color: gold;
+    height: 300px;
+    width: 400px;
+    margin:10px;
+    border: 10px ridge red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Expectativas p{
+    width: 90%;
+}
+
+/**#Motivo{
+    display: flex;
+    justify-content: center;
+}*/
+
